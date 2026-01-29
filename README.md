@@ -1,4 +1,4 @@
-# 🪄 Magic Button (Cursor Escape Edition)
+# Magic Button (Cursor Escape Edition)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Custom Cursor](https://img.shields.io/badge/Cursor-Custom-FF4500.svg)](#)
@@ -7,7 +7,7 @@
 
 
 
-## ✨ Le Concept
+## Le Concept
 
 L'illusion repose sur trois piliers :
 1. **Masquage** : Le vrai curseur système est caché.
