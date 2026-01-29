@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>magic-button</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <section id="page1" class="full-page">
+      <div class="container">
+        <button id="btn-escape" class="btn-custom">Clique-moi !</button>
+      </div>
+    </section>
+
+    <section id="page2" class="full-page">
+      <div class="container">
+        <button id="btn-attract" class="btn-custom">Clique-moi !</button>
+      </div>
+    </section>
+
+    <script type="module">
+      import { RunawayButton } from "./src/RunawayButton.js";
+
+      new RunawayButton("#btn-escape", {
+        speed: 5,
+        radius: 150,
+      });
+
+      new RunawayButton("#btn-attract", {
+        speed: 4,
+        radius: 500,    
+        mode: "attract",
+      });
+    </script>
+  </body>
+</html>

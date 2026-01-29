@@ -1,0 +1,41 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    scroll-snap-type: y mandatory; 
+    overflow-y: scroll;
+    scrollbar-width: none;
+    user-select: none;
+}
+
+.full-page {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    scroll-snap-align: start; 
+    scroll-snap-stop: always; 
+}
+
+#page1 { background-color: #f4f7f6; font-family: sans-serif; }
+#page2 { background-color: #2c3e50; color: white; font-family: sans-serif; }
+
+.btn-custom {
+    padding: 15px 30px;
+    background: #3498db;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+.btn-custom.fake-hover {
+    background-color: #2980b9;
+    transform: scale(1.1);
+}
+
+.btn-custom:hover {
+    cursor: none;
+}

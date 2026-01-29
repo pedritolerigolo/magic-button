@@ -1,0 +1,20 @@
+{
+  "name": "magic-button",
+  "version": "1.0.0",
+  "description": "Library that makes the cursor drift away from a button using a fake magnetic cursor system.",
+  "main": "src/RunawayButton.js",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pedritolerigolo/magic-button.git"
+  },
+  "keywords": [
+    "cursor",
+    "prank",
+    "ui",
+    "interaction",
+    "magnetic"
+  ],
+  "author": "pedritolerigolo",
+  "license": "MIT"
+}
