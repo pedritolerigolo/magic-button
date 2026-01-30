@@ -20,7 +20,7 @@ Vous pouvez l'intégrer directement dans votre projet en utilisant les modules E
 
 ```html
 <script type="module">
-  import { RunawayButton } from "https://cdn.jsdelivr.net/gh/pedritolerigolo/magic-button@main/src/RunawayButton.js";
+  import { RunawayButton } from "https://cdn.jsdelivr.net/gh/pedritolerigolo/magic-button/src/runawayButton.js";
 
   new RunawayButton('#votre-bouton', {
     speed: 2.5,  // Puissance de la dérive (plus élevé = plus dur)
